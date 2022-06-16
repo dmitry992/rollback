@@ -17,6 +17,7 @@ jobs:
     - name: Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with: 
-        server: test905.eu
+        server: emilsb5.sg-host.com
         username: ${{ secrets.ftp_username}}
         password: ${{ secrets.ftp_password}}
+        server-dir: /emilsb5.sg-host.com/public_html/
